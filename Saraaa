@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Untuk Kamu ❤️</title>
+<title>Untuk Saraaa ❤️</title>
 
 <style>
     body {
@@ -57,9 +57,9 @@
 
 <body>
 
-<h1>Untuk Kamu ❤️</h1>
+<h1>Untuk Saraaa ❤️</h1>
 
-<img id="photo" src="foto1.jpg">
+<img id="photo" src="WhatsApp Image 2025-12-10 at 23.59.281.jpeg">
 
 <div id="question">Kamu sayang aku nggak? 😳</div>
 
@@ -72,10 +72,10 @@
         const question = document.getElementById("question");
 
         if (choice === 'yes') {
-            photo.src = "foto2.jpg"; 
+            photo.src = "WhatsApp Image 2025-12-11 at 00.00.26.jpeg"; 
             question.textContent = "Aku juga sayang banget sama kamu 😘";
         } else {
-            photo.src = "foto3.jpg"; 
+            photo.src = "WhatsApp Image 2025-12-11 at 00.01.36.jpeg"; 
             question.textContent = "Masa sih? 😭 coba jawab lagi 😤";
         }
     }
