@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Untuk Saraaa ❤️</title>
+
+<style>
+    body {
+        background: #ffe6ec;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 40px;
+    }
+
+    h1 {
+        color: #d6336c;
+        font-size: 40px;
+    }
+
+    #photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        object-fit: cover;
+        animation: floating 3s ease-in-out infinite;
+        margin-bottom: 20px;
+    }
+
+    @keyframes floating {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-15px); }
+        100% { transform: translateY(0); }
+    }
+
+    .btn {
+        padding: 12px 20px;
+        background: #ff5f8f;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .btn:hover {
+        background: #ff2f6f;
+    }
+
+    #question {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Untuk Saraaa ❤️</h1>
+
+<img id="photo" src="WhatsApp Image 2025-12-10 at 23.59.281.jpeg">
+
+<div id="question">Kamu sayang aku nggak? 😳</div>
+
+<button class="btn" onclick="answer('yes')">Sayang ❤️</button>
+<button class="btn" onclick="answer('no')">Enggak 😒</button>
+
+<script>
+    function answer(choice) {
+        const photo = document.getElementById("photo");
+        const question = document.getElementById("question");
+
+        if (choice === 'yes') {
+            photo.src = "WhatsApp Image 2025-12-11 at 00.00.26.jpeg"; 
+            question.textContent = "Aku juga sayang banget sama kamu 😘";
+        } else {
+            photo.src = "WhatsApp Image 2025-12-11 at 00.01.36.jpeg"; 
+            question.textContent = "Masa sih? 😭 coba jawab lagi 😤";
+        }
+    }
+</script>
+
+</body>
+</html>
